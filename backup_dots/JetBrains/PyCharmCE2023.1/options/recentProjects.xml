@@ -1,0 +1,35 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/test">
+          <value>
+            <RecentProjectMetaInfo frameTitle="test – main.py" projectWorkspaceId="2O74dudcPXuKpLf8l3pkMMAOcLa">
+              <option name="activationTimestamp" value="1680898950063" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-231.8109.197" />
+              <option name="buildTimestamp" value="1680104566596" />
+              <frame x="22" y="72" width="1876" height="986" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1680899030606" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PycharmProjects/pythonProject">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2O76RGC8uHHPowmHDRwDLIDGfRf">
+              <option name="activationTimestamp" value="1680922894615" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-231.8109.197" />
+              <option name="buildTimestamp" value="1680104566596" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1680899262187" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/PycharmProjects/pythonProject" />
+    <option name="lastProjectLocation" value="$USER_HOME$/PycharmProjects" />
+  </component>
+</application>

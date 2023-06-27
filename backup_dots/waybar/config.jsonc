@@ -1,0 +1,161 @@
+{
+  "layer": "top",
+  "position": "top", 
+  "height": 40,
+  
+  "modules-left":   [ "wlr/workspaces", "tray", "network", "custom/spotify"],
+  "modules-center": [ "custom/menu", "clock", "custom/power" ],
+  "modules-right":  [ "custom/wl-gammarelay-temperature", "custom/wl-gammarelay-brightness", "custom/cycle_wall", "cpu", "memory", "pulseaudio", "battery" ],
+  
+  "wlr/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "on-click": "activate",
+    "format": "{icon}",
+    "persistent_workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": []
+    },
+    "format-icons": {
+      "1": " ",
+      "2": " ",
+      "3": " ",
+      "4": " ",
+      "5": " ",
+      "6": " ",
+      "7": " ",
+      "8": " ",
+      "9": " ",
+      "10": " ",
+      "default": " ",
+      "active": " "
+    }
+  },
+  "tray": {
+    "icon-size": 13,
+    "spacing": 10
+  },
+  "backlight":{
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": ["","",""],
+    "on-scroll-up": "brightnessctl set 1%+",
+    "on-scroll-down": "brightnessctl set 1%-",
+    "min-length": 6 
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
+  },
+  "clock": {
+   "format": "{: %I:%M %p   %m/%d}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "cpu": {
+        "format": "  {usage}%",
+        "on-click": "kitty -e vtop",
+        "tooltip": true
+},
+
+    "memory": {
+        "format": "  {}%",
+        "tooltip": true,
+        "on-click": "pkexec limpante"
+},
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "  {signalStrength}%",
+        "format-disconnected": "Disconnected ⚠", //An empty format will hide the module.
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)  ",
+        "tooltip-format-disconnected": "Disconnected",
+        "interval": 800,
+        "on-click-middle": "sh ~/.toggle_wifi.sh on",
+        "on-click-right": "sh ~/.toggle_wifi.sh off",
+        "max-length": 90
+},
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon}  {format_source}",
+        "format-bluetooth-muted": " {icon}  {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": " ",
+        "format-icons": {
+            "headphone": " ",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [" ", " ", " "],
+        },
+        "on-click": "pamixer --default-source -t",
+        "on-scroll-up": "pamixer -i 5 ",
+        "on-scroll-down": "pamixer -d 5",
+        "on-click-middle": "pamixer --default-source -d 5",
+        "on-click-right": "pamixer --default-source -i 5",
+        "max-volume": 100
+},
+  "custom/power": {
+    "format": "⏻ ",
+    "tooltip": false,
+    "on-click": "~/.config/hypr/scripts/powermenu.sh"
+  },
+  "custom/menu": {
+    "format": "󰣇 ",
+    "tooltip": false,
+    "on-click": "wofi",
+  },
+  "custom/wl-gammarelay-temperature": {
+    "format": "{} ",
+    "exec": "wl-gammarelay-rs watch {t}",
+    "on-scroll-up": "~/.config/hypr/scripts/brightness.sh temperature-up 100",
+    "on-scroll-down": "~/.config/hypr/scripts/brightness.sh temperature-down 100"
+  },
+  "custom/wl-gammarelay-brightness": {
+    "format": "{} ",
+    "exec": "wl-gammarelay-rs watch {bp}",
+    "on-scroll-up": "~/.config/hypr/scripts/brightness.sh brightness-up 0.05",
+    "on-scroll-down": "~/.config/hypr/scripts/brightness.sh brightness-down 0.05"
+  },
+"custom/spotify": {
+    "exec": "/usr/bin/python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
+    "format": " | {}",
+    "return-type": "json",
+    "on-click": "playerctl play-pause --player=spotify",
+    "on-scroll-up": "playerctl next --player=spotify",
+    "on-scroll-down": "playerctl previous --player=spotify"
+  },
+      
+      "custom/dynamic_pill": {
+        "return-type": "json",
+        // "format":"{}",
+        "escape":true
+    },
+    
+    "custom/cycle_wall":{
+        "format":" ",
+        // "interval": 1,
+        "on-click": "python3 ~/.config/waybar/scripts/background.py",
+        "tooltip": false
+    }
+  
+}
+}

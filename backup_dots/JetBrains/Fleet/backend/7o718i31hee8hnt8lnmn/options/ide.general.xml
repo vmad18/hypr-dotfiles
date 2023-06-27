@@ -1,0 +1,10 @@
+<application>
+  <component name="GeneralSettings">
+    <option name="confirmOpenNewProject2" value="0" />
+  </component>
+  <component name="Registry">
+    <entry key="go.default.go.path.supported" value="false" />
+    <entry key="go.modules.run.go.list.on.file.copy" value="false" />
+    <entry key="nodejs.remote.development.using.targets.api" value="false" />
+  </component>
+</application>

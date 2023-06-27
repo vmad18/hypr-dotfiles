@@ -1,0 +1,136 @@
+DevKit|Plugin Development
+
+Docker|Deployment
+
+HtmlTools|HTML and XML
+
+JUnit|Test Tools
+
+JavaScript|JavaScript Frameworks and Tools
+
+Lombook Plugin|JVM Frameworks
+
+com.intellij.aop|JVM Frameworks
+
+com.intellij.configurationScript|null
+
+com.intellij.css|Style Sheets
+
+com.intellij.database|Database
+
+com.intellij.gradle|Build Tools
+
+com.intellij.java-i18n|Other Tools
+
+com.intellij.javaee.el|JVM Frameworks
+
+com.intellij.javaee.jpa|JVM Frameworks
+
+com.intellij.javaee.web|JVM Frameworks
+
+com.intellij.javaee|JVM Frameworks
+
+com.intellij.java|null
+
+com.intellij.microservices.jvm|JVM Frameworks
+
+com.intellij.persistence|JVM Frameworks
+
+com.intellij.platform.images|null
+
+com.intellij.properties|Languages
+
+com.intellij.spring.batch|JVM Frameworks
+
+com.intellij.spring.boot|JVM Frameworks
+
+com.intellij.spring.data|JVM Frameworks
+
+com.intellij.spring.integration|JVM Frameworks
+
+com.intellij.spring.messaging|JVM Frameworks
+
+com.intellij.spring.mvc|JVM Frameworks
+
+com.intellij.spring.security|JVM Frameworks
+
+com.intellij.spring.websocket|JVM Frameworks
+
+com.intellij.spring.ws|JVM Frameworks
+
+com.intellij.spring|JVM Frameworks
+
+com.intellij|null
+
+com.jetbrains.jax.ws|JVM Frameworks
+
+com.jetbrains.php|Languages
+
+editorconfig|Languages
+
+fleet.backend.codeVisionCore|null
+
+fleet.backend.docker|Languages
+
+fleet.backend.go|Languages
+
+fleet.backend.gradle|Build Tools
+
+fleet.backend.groovy|Languages
+
+fleet.backend.javascript|Languages
+
+fleet.backend.java|Languages
+
+fleet.backend.kotlin|Languages
+
+fleet.backend.maven|Build Tools
+
+fleet.backend.php|Languages
+
+fleet.backend.python|Languages
+
+intellij.charts|null
+
+intellij.grid.core.impl|null
+
+intellij.grid.impl|null
+
+intellij.indexing.shared.core|null
+
+intellij.prettierJS|JavaScript Frameworks and Tools
+
+intellij.vitejs|JavaScript Frameworks and Tools
+
+intellij.webpack|JavaScript Frameworks and Tools
+
+org.editorconfig.editorconfigjetbrains|Other Tools
+
+org.intellij.groovy|Languages
+
+org.intellij.intelliLang|Other Tools
+
+org.intellij.plugins.markdown|Languages
+
+org.jetbrains.idea.maven.model|null
+
+org.jetbrains.idea.maven.server.api|null
+
+org.jetbrains.idea.maven|Build Tools
+
+org.jetbrains.idea.reposearch|null
+
+org.jetbrains.java.decompiler|Other Tools
+
+org.jetbrains.kotlin|Languages
+
+org.jetbrains.plugins.go|Languages
+
+org.jetbrains.plugins.gradle|null
+
+org.jetbrains.plugins.less|Style Sheets
+
+org.jetbrains.plugins.sass|Style Sheets
+
+org.jetbrains.plugins.yaml|Languages
+

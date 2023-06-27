@@ -1,0 +1,45 @@
+[2023-05-31 17:19:26.315] [info] Checking for update
+[2023-05-31 17:19:26.752] [info] Generated new staging user ID: 3671044b-e390-54c7-84d7-a5e10329b18a
+[2023-05-31 17:19:27.179] [info] Found version 8.2.3 (url: Todoist-8.2.3-x86_64.AppImage)
+[2023-05-31 17:19:27.180] [info] Downloading update from Todoist-8.2.3-x86_64.AppImage
+[2023-05-31 17:19:42.585] [info] File has 332 changed blocks
+[2023-05-31 17:19:42.615] [info] Full: 88,682.51 KB, To download: 6,654.77 KB (8%)
+[2023-05-31 17:19:43.832] [info] Checking for update
+[2023-05-31 17:19:44.129] [info] Found version 8.2.3 (url: Todoist-8.2.3-x86_64.AppImage)
+[2023-05-31 17:19:44.130] [info] Downloading update from Todoist-8.2.3-x86_64.AppImage
+[2023-05-31 17:19:44.488] [info] File has 332 changed blocks
+[2023-05-31 17:19:44.523] [info] Full: 88,682.51 KB, To download: 6,654.77 KB (8%)
+[2023-05-31 17:19:46.545] [info] New version 8.2.3 has been downloaded to /home/v18/.cache/todoist-updater/pending/Todoist-8.2.3-x86_64.AppImage
+[2023-05-31 17:19:51.764] [info] Auto install update on quit
+[2023-05-31 17:19:51.764] [info] Install: isSilent: true, isForceRunAfter: false
+[2023-05-31 17:19:51.765] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at Object.unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoisILthFY/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:76:14)
+    at AppImageUpdater.install (/tmp/.mount_todoisILthFY/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:53:25)
+    at /tmp/.mount_todoisILthFY/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:84:18
+    at App.<anonymous> (/tmp/.mount_todoisILthFY/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:35:48)
+    at Object.onceWrapper (node:events:510:26)
+    at App.emit (node:events:402:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoisILthFY/resources/app.asar/node_modules/@sentry/electron/main/integrations/electron-breadcrumbs.js:121:20)
+    at MainProcessSession.<anonymous> (/tmp/.mount_todoisILthFY/resources/app.asar/node_modules/@sentry/electron/main/integrations/main-process-session.js:28:28)
+[2023-06-03 11:46:54.111] [info] Checking for update
+[2023-06-03 11:46:54.783] [info] Found version 8.3.2 (url: Todoist-linux-x86_64-8.3.2.AppImage)
+[2023-06-03 11:46:54.784] [info] Downloading update from Todoist-linux-x86_64-8.3.2.AppImage
+[2023-06-03 11:46:54.792] [info] Cached update sha512 checksum doesn't match the latest available update. New update must be downloaded. Cached: O6toI4rlH1QNk7fzMia5huhZYNybsStlkDOwcKkPYJrC65LaxndlUrgDeyfgKRmP5jpvqP0pKL9h7k+ZIHRvLg==, expected: w+9p3IJZ/mkZMEINhgDwhywa9N8ppn0dH6TI97Hn1e5gTpAOC1EdkBtNqjPYAgRs4WQCFYNIv+R5oa+3R3j2YQ==. Directory for cached update will be cleaned
+[2023-06-03 11:46:54.879] [info] File has 4908 changed blocks
+[2023-06-03 11:46:55.074] [info] Full: 100,669.7 KB, To download: 100,273.46 KB (100%)
+[2023-06-03 11:46:57.772] [info] New version 8.3.2 has been downloaded to /home/v18/.cache/todoist-updater/pending/Todoist-linux-x86_64-8.3.2.AppImage
+[2023-06-03 12:17:19.123] [info] Auto install update on quit
+[2023-06-03 12:17:19.125] [info] Install: isSilent: true, isForceRunAfter: false
+[2023-06-03 12:17:19.127] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at Object.unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todois1PmJvw/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:76:14)
+    at AppImageUpdater.install (/tmp/.mount_todois1PmJvw/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:53:25)
+    at /tmp/.mount_todois1PmJvw/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:84:18
+    at App.<anonymous> (/tmp/.mount_todois1PmJvw/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:35:48)
+    at Object.onceWrapper (node:events:510:26)
+    at App.emit (node:events:402:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todois1PmJvw/resources/app.asar/node_modules/@sentry/electron/main/integrations/electron-breadcrumbs.js:121:20)
+    at MainProcessSession.<anonymous> (/tmp/.mount_todois1PmJvw/resources/app.asar/node_modules/@sentry/electron/main/integrations/main-process-session.js:28:28)
