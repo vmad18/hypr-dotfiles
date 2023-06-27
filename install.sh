@@ -1,3 +1,3 @@
 #!bin/sh
 
-cp -r ~/dotfiles-main/. ~/.config
+cp -r ~/hypr-dotfiles/. ~/.config
