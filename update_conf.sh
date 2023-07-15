@@ -1,3 +1,3 @@
 #!/bin/sh
 
-exec rsync -Pcauv ~/dotfiles-main/dot_config/ ~/.config
+exec rsync -Pcauv ~/hypr-dotfiles/dot_config/ ~/.config
