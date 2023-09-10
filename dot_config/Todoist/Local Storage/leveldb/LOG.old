@@ -1,6 +1,0 @@
-2023/06/03-11:46:53.933 aba5 Reusing MANIFEST /home/v18/.config/Todoist/Local Storage/leveldb/MANIFEST-000001
-2023/06/03-11:46:53.938 aba5 Recovering log #3
-2023/06/03-11:46:53.938 aba5 Reusing old log /home/v18/.config/Todoist/Local Storage/leveldb/000003.log 
-2023/06/03-11:49:50.176 bb96 Level-0 table #5: started
-2023/06/03-11:49:50.219 bb96 Level-0 table #5: 45728 bytes OK
-2023/06/03-11:49:50.234 bb96 Delete type=0 #3
